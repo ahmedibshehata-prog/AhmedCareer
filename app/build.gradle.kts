@@ -1,7 +1,15 @@
 plugins {
     id("com.android.application")
 }
-
+configurations.all {
+    resolutionStrategy {
+        force(
+            "org.jetbrains.kotlin:kotlin-stdlib:1.8.22",
+            "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.8.22",
+            "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.8.22"
+        )
+    }
+}
 android {
     namespace = "com.ahmed.careeros"
     compileSdk = 35
