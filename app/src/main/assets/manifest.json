@@ -1,0 +1,11 @@
+{
+  "name": "Ahmed Career OS V5",
+  "short_name": "Career OS",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f5f7fb",
+  "theme_color": "#16324F",
+  "lang": "ar",
+  "dir": "rtl"
+}
